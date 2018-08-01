@@ -1,0 +1,9 @@
+<div>
+    <span *ngIf="data">{{data.title}}</span>
+</div>
+
+<input [(ngModel)]="name" required>
+
+<p>Value: {{ name }}</p>
+
+<button (click)="setValue()">Set value</button>
